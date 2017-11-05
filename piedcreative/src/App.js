@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+//css import
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -11,30 +13,13 @@ class App extends Component {
           </section>
         </header>
         <section className="about">
-          <p>
-            Pied Creative is an art community.
-          </p>
-          <p>
-            Upload a work of your art, lets us know who you are, or leave it a mystery. Every month, the works will be compiled and displayed in our online zine.
-          </p>
-
-          {/* <form action="#">
-            <input type="file" name="pic" accept="image/*"></input>
-            <input type="submit"></input>
-          </form> */}
-
+          <div>
+            {this.props.children}
+          </div>
         </section>
       </div>
     );
   }
 }
-
-// class Nav extends Component {
-//   render() {
-//     return (
-//
-//     )
-//   }
-// }
 
 export default App;
