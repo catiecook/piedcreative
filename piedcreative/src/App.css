@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Coda:400,800|Comfortaa:300,400,700|Nixie+One');
+
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Nixie One', cursive;
+font-family: 'Coda', cursive;*/
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Coda', monospace;
+}
+
+.pied-logo {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 45px;
+}
+
+.header {
+  background-color: #222;
+  height: 5%;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 50%;
+}
+
+.writing {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin-right: 2%;
+}
+
+.photography {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin-right: 2%;
+}
+
+.print-work {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
