@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import '../App.css';
 
 class Home extends Component {
   render() {
     return (
-      <section>
+      <section className="textContainer">
         <p>
           Pied Creative is an art community.
         </p>

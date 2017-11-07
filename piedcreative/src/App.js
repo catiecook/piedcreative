@@ -12,7 +12,27 @@ class App extends Component {
             pied_creative
           </section>
         </header>
-        <section className="about">
+        <section className="container">
+          <nav className="nav">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="/">Home</a>
+                  </td>
+                  <td>
+                    <a href="/submit">Submit</a>
+                  </td>
+                  <td>
+                    <a href="/past">Past</a>
+                  </td>
+                  <td>
+                    <a href="/current">Current</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </nav>
           <div>
             {this.props.children}
           </div>
