@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PastWorkGrid from '../partials/image-grid'
 
 class Past extends Component {
   render() {
@@ -67,8 +68,8 @@ class Past extends Component {
             </nav>
           </section>
         </header>
-        <div>
-          Past Work Tiled Here
+        <div className="img-grid">
+          {PastWorkGrid}
         </div>
       </section>
     );
