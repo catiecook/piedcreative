@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import '../App.css';
-import featured from '../img/featured.jpg'
-
-console.log(featured);
+// import Nav, { Component } from '../partials/Nav'
+// import featured from '../img/featured.jpg'
 
 class Home extends Component {
   render() {
@@ -73,7 +72,6 @@ class Home extends Component {
 
           <div className="featured">
             <section className="featured-image">
-              <img src={featured} alt="featured" />
             </section>
             <section className="featured-writing">
               <h2>
