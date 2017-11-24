@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import image1 from '../img/smpl8.jpg'
+import image2 from '../img/smpl2.jpg'
+import image3 from '../img/smpl10.jpg'
 
 class Sumbit extends Component {
   render() {
@@ -70,6 +73,14 @@ class Sumbit extends Component {
         <div className="submit">
           <input type="file"></input>
         </div>
+
+        <section id="example">
+          <img src={image1} atl="work sample" />
+          <img src={image2} atl="work sample" />
+          <img src={image3} atl="work sample" />
+        </section>
+
+
       </section>
     );
   }
