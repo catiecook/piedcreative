@@ -81,8 +81,6 @@ class Sumbit extends Component {
           <img src={image2} alt="work sample" />
           <img src={image3} alt="work sample" />
         </section>
-
-
       </section>
     );
   }

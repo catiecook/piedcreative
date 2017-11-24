@@ -5,3 +5,12 @@
   align-self: center;
   max-width: 90vw;
 }
+
+.submit {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+input {
+  font-family: 'Coda', monospace;
+}
