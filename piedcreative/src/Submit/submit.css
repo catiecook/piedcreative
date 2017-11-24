@@ -1,0 +1,7 @@
+#example {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  max-width: 90vw;
+}

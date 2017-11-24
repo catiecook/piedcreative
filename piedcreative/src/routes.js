@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, IndexRoute, Route } from 'react-router';
-import asyncComponent from "./pages/AsyncComponent";
+import asyncComponent from "./AsyncComponent";
 
 import App from './App';
 // import Nav from './partials/Nav'
@@ -10,10 +10,10 @@ import App from './App';
 // import Current from './pages/Current';
 // import Home from './pages/Home';
 
-const Home = asyncComponent(() => import("./pages/Home"));
-const Current = asyncComponent(() => import("./pages/Current"));
-const Past = asyncComponent(() => import("./pages/Past"));
-const Submit = asyncComponent(() => import("./pages/Submit"));
+const Home = asyncComponent(() => import("./Home/Home"));
+const Current = asyncComponent(() => import("./Current/Current"));
+const Past = asyncComponent(() => import("./Past/Past"));
+const Submit = asyncComponent(() => import("./Submit/Submit"));
 // const App = asyncComponent(() => import("./App"));
 
 const Routes = (props) => (
