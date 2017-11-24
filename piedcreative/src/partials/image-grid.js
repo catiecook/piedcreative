@@ -22,80 +22,93 @@ const tilesData = [
     img: '../img/smpl1.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl2.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl3.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl4.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl5.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl6.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl7.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl8.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl9.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl10.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl12.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl13.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl14.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl15.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   },
   {
     img: '../img/smpl16.jpg',
     title: 'sample',
     author: 'unsplash',
+    alt: 'photo',
   }
 ];
-
-console.log("In the pastworksgrid component")
 
 const PastWorkGrid = () => (
 
