@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import image1 from '../img/smpl8.jpg'
-import image2 from '../img/smpl2.jpg'
-import image3 from '../img/smpl10.jpg'
+import PastWorkGrid from '../partials/image-grid'
 
-class Sumbit extends Component {
+import './past.css'
+
+class Past extends Component {
   render() {
     return (
       <section className="App">
@@ -70,19 +70,11 @@ class Sumbit extends Component {
             </nav>
           </section>
         </header>
-        <div className="submit">
-          <input type="file"></input>
+        <div className="img-grid">
+          {PastWorkGrid}
         </div>
-
-        <section id="example">
-          <img src={image1} atl="work sample" />
-          <img src={image2} atl="work sample" />
-          <img src={image3} atl="work sample" />
-        </section>
-
-
       </section>
     );
   }
 }
-export default Sumbit;
+export default Past;

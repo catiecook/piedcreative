@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../App.css';
 // import Nav, { Component } from '../partials/Nav'
 // import featured from '../img/featured.jpg'
+import './home.css'
 
 class Home extends Component {
   render() {

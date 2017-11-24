@@ -1,0 +1,83 @@
+/* Styles for Home page */
+
+#header-home-pied {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 10em;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 20pt;
+}
+
+#header-home-creative {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 5em;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 1%;
+}
+
+.header-home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 220px;
+  margin: 0 2%;
+  color: white;
+  margin-bottom: 20pt;
+}
+
+.home-nav {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 600;
+  margin: 0 2% 4% 2%;
+  display: flex;
+  flex-direction:row-reverse;
+  align-self: right;
+  align-items: right;
+  text-decoration: none;
+  color: #525252;
+  width: 100%;
+}
+
+.home-nav table {
+  border-spacing: 2vw;
+}
+
+.home-nav td:hover {
+  font-color: #28DBE4;
+  border-bottom: 3pt solid #28DBE4;
+}
+
+.home-nav td {
+  text-align: left;
+  width: 10%;
+  border-bottom: 3pt solid #525252;
+}
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  width: 98%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.featured-image {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  height: 400px;
+  width: 800px;
+  margin-right: 2%;
+}
+
+.featured-writing {
+  width: 30%;
+}
