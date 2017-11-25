@@ -70,9 +70,9 @@ class Past extends Component {
             </nav>
           </section>
         </header>
-        <div className="img-grid">
-          {PastWorkGrid}
-        </div>
+
+        <PastWorkGrid>{this.props.children}</PastWorkGrid>
+
       </section>
     );
   }
