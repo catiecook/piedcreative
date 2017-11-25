@@ -125,7 +125,8 @@ const PastWorkGrid = () => (
           subtitle={<span>by <b>{tile.author}</b></span>}
           actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
         >
-          <img src={tile.img} alt="example image" />
+          Hello
+          <img src={tile.img} alt="example" />
         </GridTile>
       ))}
     </GridList>

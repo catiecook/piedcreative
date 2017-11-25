@@ -1,14 +1,15 @@
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css?family=Coda:400,800|Comfortaa:300,400,700|Nixie+One');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100i,200,300,400,600i,900i');
 
-/*font-family: 'Comfortaa', cursive;
-font-family: 'Nixie One', cursive;
-font-family: 'Coda', cursive;*/
 
 html {
   background-color: #F0F0F0;
-  border: 13pt solid white;
-  font-family: 'Coda', monospace;
+  /*border: 13pt solid white;*/
+  font-family: 'Barlow', sans-serif;
+  color: #525252;
+  font-size: .9em;
+  font-weight: 200;
 }
 
 .App {
@@ -19,7 +20,6 @@ html {
   height: 100%;
   padding-bottom: 1%;
 }
-
 
 .header-all {
   display: flex;

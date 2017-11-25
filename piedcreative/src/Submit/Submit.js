@@ -72,6 +72,19 @@ class Sumbit extends Component {
             </nav>
           </section>
         </header>
+        <p className="general">
+          Submit your work for our first print in 2018!
+          <br />
+          <mark>
+            What we're looking for:
+          </mark>
+          <span className="emphasized">
+            Photography, Poems, Paintings, Illustrations, Embroideries, Pottery, Drawings, Tattoos...<br /><em>pretty much anything that you consider to be your art</em>
+          </span>
+          <mark>
+            Please be respectful, only submit things you would be okaywith your grandma seeing.
+          </mark>
+        </p>
         <div className="submit">
           <input type="file"></input>
         </div>

@@ -7,8 +7,30 @@
 }
 
 .submit {
-  padding-top: 10vh;
+  padding-top: 5%;
   padding-bottom: 10vh;
+}
+
+.general {
+  font-weight: lighter;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2em;
+  text-align: center;
+}
+
+.emphasized {
+  font-size: 1.2em;
+}
+
+mark {
+  background-color: #bffcff;
+  color: #525252;
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
 }
 
 input {
