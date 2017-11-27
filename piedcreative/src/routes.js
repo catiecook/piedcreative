@@ -1,20 +1,17 @@
 import React from 'react';
-import { Router, IndexRoute, Route } from 'react-router';
+import { Route, Router, IndexRoute } from 'react-router';
 import asyncComponent from "./AsyncComponent";
+// import AppliedRoute from "./Misc/AppliedRoutes";
+// import AuthenticatedRoute from "./components/AuthenticatedRoute";
+// import UnauthenticatedRoute from "./components/UnauthenticatedRoute"
 
 import App from './App';
-// import Nav from './partials/Nav'
-// import Footer from './partials/Footer'
-// import Submit from './pages/Submit';
-// import Past from './pages/Past';
-// import Current from './pages/Current';
-// import Home from './pages/Home';
 
 const Home = asyncComponent(() => import("./Home/Home"));
 const Current = asyncComponent(() => import("./Current/Current"));
 const Past = asyncComponent(() => import("./Past/Past"));
 const Submit = asyncComponent(() => import("./Submit/Submit"));
-// const App = asyncComponent(() => import("./App"));
+// const NotFound = asyncComponent(() => import("./Misc/NotFound"));
 
 const Routes = (props) => (
   <Router {...props}>
@@ -27,7 +24,33 @@ const Routes = (props) => (
   </Router>
 );
 
-
-
+// export default ({ childProps }) =>
+//   <Switch>
+//     <AppliedRoute
+//       path="/"
+//       exact
+//       component={Home}
+//       props={childProps}
+//     />
+//     <AppliedRoute
+//       path="/current"
+//       exact
+//       component={Current}
+//       props={childProps}
+//     />
+//     <AppliedRoute
+//       path="/submit"
+//       exact
+//       component={Submit}
+//       props={childProps}
+//     />
+//     <AppliedRoute
+//       path="/past"
+//       exact
+//       component={Past}
+//       props={childProps}
+//     />
+//     <Route component={NotFound} />
+//   </Switch>
 
 export default Routes;

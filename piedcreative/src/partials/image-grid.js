@@ -3,7 +3,9 @@ import {GridList, GridTile} from 'material-ui/GridList';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
-import image2 from '../img/smpl2.jpg'
+import image2 from '../img/smpl3.jpg';
+
+import '../Past/past.css';
 
 const styles = {
   root: {
@@ -11,21 +13,22 @@ const styles = {
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     width: '75%',
+
     // width: '30%'
   },
   gridList: {
+
     // background: '#ffd699'
   },
+  gridTile: {
+    margin: '5%',
+    width: '100%',
+  }
 };
 
 const tilesData = [
   {
-    img: '../img/smpl1.jpg',
-    title: 'sample',
-    author: 'unsplash',
-  },
-  {
-    img: '../img/smpl2.jpg',
+    img: image2,
     title: 'sample',
     author: 'unsplash',
   },
@@ -83,16 +86,6 @@ const tilesData = [
     img: '../img/smpl14.jpg',
     title: 'sample',
     author: 'unsplash',
-  },
-  {
-    img: '../img/smpl15.jpg',
-    title: 'sample',
-    author: 'unsplash',
-  },
-  {
-    img: '../img/smpl16.jpg',
-    title: 'sample',
-    author: 'unsplash',
   }
 ];
 
@@ -100,17 +93,18 @@ const PastWorkGrid = () => (
   <div style={styles.root}>
     <GridList
       cellHeight={200}
-      style={styles.gridList} cols={4.2}
+      style={styles.gridList} cols={3.2}
     >
-      <Subheader>Past Works</Subheader>
+      <Subheader>What you missed last month:</Subheader>
       {tilesData.map((tile) => (
         <GridTile
+          style={styles.gridTile}
           key={tile.img}
           // title={tile.title}
           subtitle={<span>by <b>{tile.author}</b></span>}
           actionIcon={<IconButton><StarBorder color="black" /></IconButton>}
         >
-        <img src={image2} alt="work sample" />
+        <img src={tile.img} alt="work sample" />
 
         </GridTile>
       ))}
