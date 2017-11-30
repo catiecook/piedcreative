@@ -14,7 +14,8 @@ class Sumbit extends Component {
         <header className="header-all">
           <Nav>{this.props.children}</Nav>
         </header>
-        <p className="general">
+
+        {/* <p className="general">
           Submit your work for our first print in 2018!
           <br />
           <mark>
@@ -35,6 +36,16 @@ class Sumbit extends Component {
           <img src={image1} alt="work sample" />
           <img src={image2} alt="work sample" />
           <img src={image3} alt="work sample" />
+        </section> */}
+
+        <section className="outer-row-container">
+          <h3>Build Your Page</h3>
+          <div className="medium-container">
+            <p>Treat this like your own personal gallery wall. Upload a photo (or a few). If you want, give us a little description of the work. Have some a writing piece to submit? Go for it!</p>
+            <p>We have a few layouts available depending on what you’re submitting.</p>
+
+            <p>Click on the type of piece you’ll be giving us and we will show you some of the ways you can display your work on the site.</p>
+          </div>
         </section>
       </section>
     );
