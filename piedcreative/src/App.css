@@ -11,6 +11,7 @@ html {
   font-size: .9em;
   font-weight: 200;
   padding-bottom: 0px;
+  height: 100vh;
 }
 
 .App {
@@ -19,7 +20,7 @@ html {
   align-items: center;
   align-self: center;
   height: 100%;
-  padding-bottom: 1%;
+  /*padding-bottom: 1%;*/
 }
 
 .header-all {
@@ -95,6 +96,10 @@ img {
   max-width: auto;
   padding: 1%;
   max-height: 600px;
+}
+
+p {
+  line-height: 1.3;
 }
 
 h1, h2, h3, h4, h5, h6 {

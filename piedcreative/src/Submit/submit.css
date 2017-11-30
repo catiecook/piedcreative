@@ -37,10 +37,11 @@
 .large-container {
   display: flex;
   flex-direction: column;
-  /*background-color: grey;*/
-  height: 400px;
-  width: 800px;
-  margin-right: 2%;
+  background-color: white;
+  height: auto;
+  width: 65%;
+  margin: 0 2%;
+  padding: 2%;
 }
 
 .medium-container {
