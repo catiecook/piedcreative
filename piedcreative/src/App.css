@@ -5,11 +5,12 @@
 
 html {
   background-color: #F0F0F0;
-  /*border: 13pt solid white;*/
+  border: 13pt solid white;
   font-family: 'Barlow', sans-serif;
   color: #525252;
   font-size: .9em;
   font-weight: 200;
+  padding-bottom: 0px;
 }
 
 .App {

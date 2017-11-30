@@ -25,6 +25,30 @@
   font-size: 1.2em;
 }
 
+.outer-row-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  width: 98%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.large-container {
+  display: flex;
+  flex-direction: column;
+  /*background-color: grey;*/
+  height: 400px;
+  width: 800px;
+  margin-right: 2%;
+}
+
+.medium-container {
+  background-color: white;
+  width: 30%;
+  padding: 2%;
+}
+
 mark {
   background-color: #bffcff;
   color: #525252;
