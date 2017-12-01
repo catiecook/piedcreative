@@ -49,18 +49,18 @@ class Nav extends Component {
             <table>
               <tbody>
                 <tr>
-                  <td>
-                    <a href="/">Home</a>
-                  </td>
-                  <td>
-                    <a href="/submit">Submit</a>
-                  </td>
-                  <td>
-                    <a href="/past">Past</a>
-                  </td>
-                  <td>
-                    <a href="/current">Current</a>
-                  </td>
+                  <a href="/"><td>
+                    Home
+                  </td></a>
+                  <a href="/submit"><td>
+                    Submit
+                  </td></a>
+                  <a href="/past"><td>
+                    Past
+                  </td></a>
+                  <a href="/current"><td>
+                    Current
+                  </td></a>
                 </tr>
               </tbody>
             </table>
